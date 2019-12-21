@@ -1,9 +1,69 @@
 body {
   background-color: #b3b3b3;
+  font-family: sans-serif;
 }
 #container {
   background-color: #fff;
   width: 800px;
   margin: 16px auto;
+  padding: 16px;
   border: 1px solid black;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  margin: 16px 0;
+  font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+  border-top: 2px solid #8b0000;
+  border-bottom: 2px solid #8b0000;
+  padding: 16px 0;
+ 
+}
+
+main {
+  background-color: #eee;
+  width: 600px;
+  padding: 16px;
+  margin: 0 auto;
+}
+
+main img {
+  /* désigne tus les éléments enfants d'un main*/
+  width:"100px";
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h3 {
+  font-size: 1.3em;
+  color: #8b0000;
+}
+
+/* on code strong à cause du reset.css*/
+strong {
+  font-weight: bold;
+}
+p {
+  text-align: left;
+  margin: 1em 0; /* padding possible mais moins logique pour séparer les paragraphes*/
+}
+
+/* Pour appeler la classe on met un  point devant : .presentation-courte*/
+.presentation-courte {
+  font-size: 0.8em;
+  font-style: italic;
+  border-top: 1px solid #000;
+  padding-top: 1em;
+}
+
+footer {
+  background-color: #eee;
+  padding: 2em 0 5em;
+  margin-top: 16px;
 }

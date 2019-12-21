@@ -14,6 +14,7 @@ body {
 h1, h2, h3 {
   margin: 16px 0;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
@@ -21,20 +22,27 @@ h1 {
   border-top: 2px solid #8b0000;
   border-bottom: 2px solid #8b0000;
   padding: 16px 0;
- 
-}
+ }
 
-main {
+ h1 span {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.4em;
+  padding: 8px 16px;
+}
+article {
   background-color: #eee;
   width: 600px;
   padding: 16px;
   margin: 0 auto;
 }
 
-main img {
-  /* désigne tus les éléments enfants d'un main*/
-  width:"100px";
+article img {
+  /* désigne tus les éléments enfants d'un article*/
+  width: 100px;
 }
+
+
 
 h2 {
   font-size: 1.6em;
@@ -60,6 +68,25 @@ p {
   font-style: italic;
   border-top: 1px solid #000;
   padding-top: 1em;
+}
+
+li {
+  border-radius: 1em;
+  background-color: #eee;
+  margin: 3px;
+}
+
+#actors {
+  width: 600px;
+  margin: 0 auto;
+}
+
+li a {
+  color: darkred;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 0.5em 1em;
+  display: inline-block;
 }
 
 footer {
